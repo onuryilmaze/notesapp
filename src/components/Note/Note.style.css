@@ -1,0 +1,43 @@
+.note {
+  background-color: #f9f9f9;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.note.completed {
+  background-color: #d9ffd9;
+  text-decoration: line-through;
+}
+
+.note span {
+  display: block;
+  cursor: pointer;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.delete-btn:hover {
+  color: red;
+}
+
+.note.completed {
+  background-color: #d3d3d3;
+  text-decoration: line-through;
+  color: #888;
+}

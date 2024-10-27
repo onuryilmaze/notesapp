@@ -1,0 +1,68 @@
+.note-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 650px;
+}
+
+.note-form textarea {
+  width: 640px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  resize: none; 
+  outline: none;
+}
+
+.color-picker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.color-picker span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.color-picker span:hover {
+  transform: scale(1.05);
+}
+
+.checkmark {
+  font-size: 18px;
+  color: white;
+  display: none;
+}
+
+.selected .checkmark {
+  display: block;
+}
+
+.note-form button {
+  padding: 12px;
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+}
+
+.note-form button:hover {
+  background-color: #218838;
+}
