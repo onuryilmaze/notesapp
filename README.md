@@ -2,7 +2,7 @@
 
 ##  Live Demo
 
-[Live Demo] soon... - Check out the live demo of the application 
+[Live Demo] [DEMO](https://nejinotes.netlify.app) - Check out the live demo of the application 
 
 ##  ScreenShot
 [SS](/src/assets/screen-shot.png)
